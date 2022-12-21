@@ -10,7 +10,8 @@
         <activity
             android:name=".PrasesActivity"
             android:label="@string/category_phrases"
-            android:exported="false" >
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value=""
@@ -20,7 +21,8 @@
         <activity
             android:name=".FamilyActivity"
             android:label="@string/category_family"
-            android:exported="false" >
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
 
@@ -29,7 +31,8 @@
         <activity
             android:name=".ColorsActivity"
             android:label="@string/category_colors"
-            android:exported="false" >
+            android:exported="false"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
 
@@ -38,7 +41,8 @@
         <activity
             android:name=".NumbersActivity"
             android:exported="false"
-            android:label="@string/category_numbers">
+            android:label="@string/category_numbers"
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value=""
